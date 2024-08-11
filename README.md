@@ -22,8 +22,8 @@ Este projeto tem o objetivo de desenvolver um aplicativo que será utilizado fut
 1. Clone o respositório, usando:
 
    ```bash
-   git clone https://github.com/Marcelseccol/AlpineJS-Laravel.git 
-   cd Alpine75-Laravel
+   git clone https://github.com/henrique151/App-Business-Directory.git
+   cd App-Business-Directory
    ```
 
 2. Instalar dependências:
