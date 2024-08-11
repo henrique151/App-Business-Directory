@@ -1,4 +1,4 @@
-# React Native + JavaScript + Expo + FiraBase 👋
+# React Native + JavaScript + Expo + FireBase 👋
 
 Este projeto tem o objetivo de desenvolver um aplicativo que será utilizado futuramente na realização de um projeto de TCC, utilizando tecnologias semelhantes. As linguagens escolhidas para o desenvolvimento são React Native, TypeScript e Firebase. O aplicativo será um Diretório de Confeitarias, permitindo que os usuários façam login utilizando a autenticação via conta do Google e cadastrem suas confeitarias no sistema. Além disso, os usuários poderão editar, deletar e pesquisar confeitarias já cadastradas, com a opção de aplicar filtros para refinar os resultados de acordo com suas preferências.
 
@@ -17,48 +17,29 @@ Este projeto tem o objetivo de desenvolver um aplicativo que será utilizado fut
 - Ter uma conta Google.
 - Ter o Expo instalado no celular para executar o aplicativo.
 
+## Instalação
 
-1. Install dependencies
+1. Clone o respositório, usando:
+
+   ```bash
+   git clone https://github.com/Marcelseccol/AlpineJS-Laravel.git 
+   cd Alpine75-Laravel
+   ```
+
+2. Instalar dependências:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Inicie o aplicativo:
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   Ou
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   ```bash
+    npm run android
+   ```
